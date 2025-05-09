@@ -13,5 +13,3 @@ for (let i = 0; i < newArray.length; i++) {
   let nowkey = newArray[i]; //key
   console.log(`key : ${nowkey}, value : ${person[nowkey]}`);
 }
-
-console.log(Object.keys(person));
