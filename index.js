@@ -13,3 +13,12 @@ for (let i = 0; i < newArray.length; i++) {
   let nowkey = newArray[i]; //key
   console.log(`key : ${nowkey}, value : ${person[nowkey]}`);
 }
+
+let person2 = {
+  name: "은비",
+  age: 31,
+  height: 168,
+};
+for (let key in person2) {
+  console.log(`key : ${key}, value : ${person2[key]}`);
+}
