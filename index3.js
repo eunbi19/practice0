@@ -56,3 +56,48 @@ for (let i = 0; i < newarr6.length; i++) {
 }
 
 console.log(Object.entries(person3));
+
+const buttons = document.querySelectorAll("button");
+buttons.forEach((btn) => {});
+
+// [3, 6, 1, 9, 12] 배열의 모든 요소를 더해서
+// 총합을 출력해보세요
+
+let arrNumm = [3, 6, 1, 9, 12];
+let total = 0;
+for (let i = 0; i < arrNumm.length; i++) {
+  total += arrNumm[i];
+}
+console.log(total);
+
+// ["apple", "banana", "kiwi", "orange"] 배열을 돌면서
+// 각 단어와 그 길이를 다음 형식으로 출력해보세요
+// 예시: apple - 5글자
+
+// 코드 들어갈 곳
+let word = ["apple", "banana", "kiwi", "orange"];
+for (i = 0; i < word.length; i++) {
+  console.log(`${i + 1}번째의 ${word[i]} - ${word[i].length}글자`);
+}
+
+// let arrTest = [3, 6, 1, 9, 12];
+// let total = 0;
+// for (let i = 0; i < arrTest.length; i++) {
+//   console.log(
+//     `total(${total}) + arrTest[${i}](${arrTest[i]}) = ${total + arrTest[i]}`
+//   );
+// }
+// console.log(total);
+
+// total(0) + arrTest[0](3) = 3
+// total(0) + arrTest[1](6) = 6
+// total(0) + arrTest[2](1) = 1
+// total(0) + arrTest[3](9) = 9
+// total(0) + arrTest[4](12) = 12
+
+// for (let i = 0; i < arr.length; i++) {
+//   console.log(`i는 지금 ${i}이고, arr[i]는 ${arr[i]}입니다`);
+// }
+// i는 지금 0이고, arr[i]는 100입니다
+// i는 지금 1이고, arr[i]는 200입니다
+// i는 지금 2이고, arr[i]는 300입니다
